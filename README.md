@@ -1,5 +1,5 @@
 # ModPDFiumSharp
-Subset of <a href="https://github.com/ArgusMagnus/PDFiumSharp">PDFiumSharp</a> repo with fixes for Page Bitmap rotation. 
+Subset of <a href="https://github.com/ArgusMagnus/PDFiumSharp">PDFiumSharp</a> repo with fixes for Page Bitmap rotation and added few additional wrapper methods. 
 
 ## Changes from original repo:
 1. Updated FPDF_RenderPageBitmapWithMatrix method to Marshal the Structs into IntPtr before making the Native call
